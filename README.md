@@ -410,6 +410,11 @@ for t in tests:
 
 ![salidap3](PUNTO3/SALIDAP3.png)
 
+En este punto se desarrolló un analizador sintáctico ascendente para la gramática de expresiones aritméticas.
+Primero se transformó la gramática original para eliminar la recursión por la izquierda y calcular los conjuntos FIRST, FOLLOW y PREDICT, garantizando su corrección formal.
+Luego se implementó un algoritmo shift–reduce en Python, que usa una pila para aplicar reducciones según las producciones definidas.
+Finalmente, se verificó su funcionamiento mediante pruebas con expresiones válidas e inválidas, demostrando que el analizador reconoce correctamente las estructuras gramaticales y valida la sintaxis conforme a las reglas establecidas.
+
 ### Punto 4
 
 Implemente un parser usando el algoritmo CYK. Realice pruebas sobre el rendimiento de este algoritmo comparándolo con un parser de tipo predictivo. Realice una comparación entre el rendimiento de los dos parser.
