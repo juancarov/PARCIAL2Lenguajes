@@ -291,6 +291,8 @@ print("\nEjecución finalizada correctamente.")
 
 #### Salida
 
+![salidap2](PUNTO1-2/SalidaP1.png)
+
 La gramática diseñada en el punto anterior fue implementada usando ANTLR4, Se empleó el patrón Visitor para recorrer el árbol sintáctico y ejecutar las operaciones correspondientes sobre una estructura de datos en memoria.
 El analizador permite interpretar las instrucciones del lenguaje CRUD, crear tablas, insertar registros y modificarlos dinámicamente.
 
@@ -421,7 +423,7 @@ plt.show()
 
 #### Resultado esperado: 
 
-
+![salidap4](PUNTO4/SALIDAP4.png)
 
 Se implementó el algoritmo CYK (Cocke–Younger–Kasami), un método de análisis sintáctico ascendente basado en programación dinámica, que funciona con gramáticas en forma normal de Chomsky. El parser CYK fue comparado con un parser predictivo LL(1) midiendo los tiempos de ejecución para cadenas de diferentes longitudes. Los resultados mostraron que CYK tiene un costo computacional cúbico (O(n³)), mientras que el parser predictivo mantiene un crecimiento lineal (O(n)), lo que evidencia sus diferencias de eficiencia y alcance.
 
@@ -523,6 +525,6 @@ if __name__ == "__main__":
 
 #### Salida Esperada
 
-
+![salidap5](PUNTO5/SALIDAp5.png)
 
 En este punto se diseñó un algoritmo de emparejamiento dentro de un parser descendente recursivo, capaz de mostrar el proceso de reconocimiento sintáctico paso a paso.El analizador recorre la entrada aplicando reglas gramaticales de forma descendente y registrando cada coincidencia o error de emparejamiento entre los tokens esperados y los leídos. Este enfoque permite visualizar cómo opera un analizador descendente, mostrando la secuencia de derivaciones y validando la estructura sintáctica de una expresión.
